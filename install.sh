@@ -64,8 +64,8 @@ sleep 2
 echo ""
 echo ""
 echo -e "${GREEN}Moving stuff where it ${RED}NEEDS${NC} to be"
-sudo chmod +x /root/mnsetup/respawnd /root/mnsetup/respawn-cli
-sudo mv /root/mnsetup/respawnd /root/mnsetup/respawn-cli /usr/local/bin
+sudo chmod +x /root/respawnmn/respawnd /root/respawnmn/respawn-cli
+sudo mv /root/respawnmn/respawnd /root/respawnmn/respawn-cli /usr/local/bin
 echo ""
 echo ""
 sleep 2
