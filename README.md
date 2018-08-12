@@ -24,7 +24,7 @@
 
 1. Connect to your linux vps AS ROOT (AWS USERS USE sudo -i TO LOGIN AS ROOT), copy and paste the following line into your VPS.  Double click to highlight the entire line, copy it, and right click into Putty or Shift + Insert to paste.
 ```
-cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/RespawnCoin/respawnmn && cd respawnmn/ && sudo bash install.sh && cd && rm -r respawnmn/
+cd && sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/RespawnCoin/respawnmn && cd respawnmn/ && sudo bash install.sh && cd && rm -r respawnmn/ 
 ```
 2. follow the prompts closely and don't mess it up!
 3. Move to Part 3
